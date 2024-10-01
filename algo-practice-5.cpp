@@ -28,25 +28,25 @@ int main()
     diagnosticParameters[1].name = "тривалість анакроти";
     diagnosticParameters[1].min = 0.07;
     diagnosticParameters[1].max = 0.11;
-    cin >> diagnosticParameters[0].value;
+    cin >> diagnosticParameters[1].value;
 
     cout << "Введіть діакратичний індекс:" << endl;
     diagnosticParameters[2].name = "діакратичний індекс";
     diagnosticParameters[2].min = 14;
     diagnosticParameters[2].max = 60;
-    cin >> diagnosticParameters[0].value;
+    cin >> diagnosticParameters[2].value;
 
     cout << "Введіть середня швидкість миттєвого наповнення:" << endl;
     diagnosticParameters[3].name = "середня швидкість миттєвого наповнення";
     diagnosticParameters[3].min = 0.6;
     diagnosticParameters[3].max = 1.2;
-    cin >> diagnosticParameters[0].value;
+    cin >> diagnosticParameters[3].value;
 
     cout << "Введіть діастолічний індекс:" << endl;
     diagnosticParameters[4].name = "діастолічний індекс";
     diagnosticParameters[4].min = 10;
     diagnosticParameters[4].max = 80;
-    cin >> diagnosticParameters[0].value;
+    cin >> diagnosticParameters[4].value;
     
     cout << endl << endl << "ДІАГНОСТИКА ЗАВЕРШЕНА:" << endl;
 
