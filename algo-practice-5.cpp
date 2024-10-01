@@ -54,7 +54,7 @@ int main()
         if (diagnosticParameters[i].value < diagnosticParameters[i].min) {
             cout << diagnosticParameters[i].name << " менше норми" << endl;
         }
-        else if (diagnosticParameters[i].value < diagnosticParameters[i].min) {
+        else if (diagnosticParameters[i].value > diagnosticParameters[i].max) {
             cout << diagnosticParameters[i].name << " вище норми" << endl;
         }
         else {
